@@ -7,8 +7,11 @@ int main()
     int a, b, result;
     int prime[100];
  
-    printf("Enter two numbers: ");
-    scanf("%d%d", &a, &b);
+    printf("first number is: ");
+    scanf("%d", &a);
+    printf("second number is: ");
+    scanf("%d", &b);
+    
     result = lcm(a, b);
     printf("The LCM of %d and %d is %d\n", a, b, result);
     return 0;
